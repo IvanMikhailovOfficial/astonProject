@@ -11,6 +11,7 @@ public class Lesson2 {
             System.out.println(element);
         }
     }
+
     // метод задачи № 2:
     public static void checkSumSign() {
         int a = 45_000_000;
@@ -23,6 +24,7 @@ public class Lesson2 {
             System.out.println("Сумма отрицательная");
         }
     }
+
     // метод задачи № 3:
     public static void printColor() {
         int value = 35_789;
@@ -35,6 +37,7 @@ public class Lesson2 {
             System.out.println("Зеленый");
         }
     }
+
     // метод задачи № 4:
     public static void compareNumbers() {
         int a = 17_789;
@@ -46,12 +49,14 @@ public class Lesson2 {
             System.out.println("a < b");
         }
     }
+
     // метод задачи № 5:
     public static boolean checkAmountRange(int number1, int number2) {
         int sum = number1 + number2;
 
         return sum >= 10 && sum <= 20;
     }
+
     // метод задачи № 6:
     public static void checkPositiveOrNegativeNumber(int number) {
 
@@ -61,11 +66,12 @@ public class Lesson2 {
             System.out.println("В параметре поступило ОТРИЦАТЕЛЬНОЕ число");
         }
     }
+
     // метод задачи № 7:
     public static boolean checkNumberIsNegative(int number) {
-
         return number < 0;
     }
+
     // метод задачи № 8:
     public static void printLineAnTimes(String str, int count) {
 
@@ -73,19 +79,12 @@ public class Lesson2 {
             System.out.println(str);
         }
     }
+
     // метод задачи № 9:
     public static boolean isLeapYear(int year) {
-
-//        if (year % 4 == 0) {
-//
-//            if (year % 400 == 0) {
-//                return true;
-//            } else if (year % 100 == 0) {
-//                return false;
-//            }
-//        }
         return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
     }
+
     // метод задачи № 10:
     public static int[] updateArray(int[] array) {
 
@@ -99,6 +98,7 @@ public class Lesson2 {
         }
         return array;
     }
+
     // метод задачи № 11:
     public static int[] fillingTheArray() {
         int[] array = new int[100];
@@ -108,6 +108,7 @@ public class Lesson2 {
         }
         return array;
     }
+
     // метод задачи № 12:
     public static int[] multiplyingBy2AllValuesLessThan6(int[] array) {
 
@@ -119,6 +120,7 @@ public class Lesson2 {
         }
         return array;
     }
+
     // методы задачи № 13:
     public static int[][] fillingTwoDimensionalArray(int[][] array) {
 
@@ -138,6 +140,7 @@ public class Lesson2 {
             System.out.println();
         }
     }
+
     // метод задачи № 14:
     public static int[] createArray(int len, int initialValue) {
         int[] array = new int[len];
