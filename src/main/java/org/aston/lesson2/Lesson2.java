@@ -75,15 +75,6 @@ public class Lesson2 {
     }
     // метод задачи № 9:
     public static boolean isLeapYear(int year) {
-
-//        if (year % 4 == 0) {
-//
-//            if (year % 400 == 0) {
-//                return true;
-//            } else if (year % 100 == 0) {
-//                return false;
-//            }
-//        }
         return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
     }
     // метод задачи № 10:
