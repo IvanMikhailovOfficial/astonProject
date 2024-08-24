@@ -1,5 +1,7 @@
 package org.aston.lesson6;
 
+import java.math.BigDecimal;
+
 public class Person {
     private String firstName;
     private String lastName;
@@ -7,11 +9,11 @@ public class Person {
     private String post;
     private String email;
     private String telephone;
-    private Long salary;
+    private BigDecimal salary;
     private int age;
 
     public Person(String firstName, String lastName, String patronymic,
-                  String post, String email, String telephone, Long salary, int age) {
+                  String post, String email, String telephone, BigDecimal salary, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.patronymic = patronymic;
@@ -46,7 +48,7 @@ public class Person {
         return telephone;
     }
 
-    public Long getSalary() {
+    public BigDecimal getSalary() {
         return salary;
     }
 
@@ -54,7 +56,7 @@ public class Person {
         return age;
     }
 
-    public void showInfoEmployee() {
+    public void showInfo() {
         System.out.println(firstName + " " + lastName + " " + patronymic + " " + post +
                 " " + email + " " + salary + " " + age);
     }
