@@ -8,7 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TestMts2 {
+public class Lesson16 {
     private static WebDriver webDriver;
 
     @BeforeClass
